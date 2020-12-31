@@ -1,0 +1,367 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+
+/*Global css started from here*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+/*Header Section css started from here*/
+header{
+	width: 100%;
+	background: #daac00;
+}
+
+.navbar-nav .nav-item a{
+	font-size:20px;
+	font-weight: 700;
+	color: #fff !important;
+}
+
+/*Header Section css ended*/
+
+/*Banner Section css started from here*/
+
+.banner {
+	width: 100%;
+	background: #fcc302;
+}
+
+.banner-text{
+	height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-text h1{
+	color: #fff;
+	font-weight: 600;
+	font-size: 72px;
+}
+
+.banner-text p{
+	color: #fff;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 30px 0px;
+}
+.banner-text ul li{
+	display:inline-block;
+	margin-right: 40px;
+}
+.banner-btn-1  {
+	padding: 12px 22px;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    background: #14a4c5;
+    border-radius: 5px;
+}
+
+.banner-btn-2 {
+	padding: 12px 22px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    border-radius: 5px;
+}
+/*Right side css */
+
+.banner-img{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+/*Banner Section css started from here
+
+/*video section css started*/
+.video-section{
+	width: 100%;
+}
+
+.video-text{
+	height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.video-text h1{
+	font-size: 54px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.video-text p{
+	margin-bottom: 36px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.video-text button{
+	border: none;
+    background: #fcc302;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+.video-section-video{
+	height: 90vh;
+	display:flex;
+	align-items: center;
+}
+.video-section-video img{
+	position: relative;
+}
+.overlay {
+	position: absolute;
+    background: #f7c20085;
+    bottom: 85px;
+    top: 85px;
+    left: 15px;
+    right: 48px;
+}
+
+/*video section css started*/
+
+/*Service section css started*/
+.Service-section{
+	width: 100%;
+	height: auto;
+	padding: 100px 0;
+	background: #fcc302;
+}
+
+.heading-part{
+	width: 100%
+}
+
+.heading-part h1{
+	color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.heading-part p{
+	color: #fff;
+    font-size: 32px;
+    padding: 0px 125px;
+
+}
+
+/*Service section css ended*/
+
+/*Video section part 2 started */
+
+.video-section-2{
+	width: 100%;
+}
+
+.video-text-2{
+	height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:right;
+}
+
+.video-text-2 h1{
+	font-size: 54px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.video-text-2 p{
+	margin-bottom: 36px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.video-text-2 button{
+	border: none;
+    background: #fcc302;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+/*video section-2 css ended*/
+
+
+/*Product section css started */
+.product{
+	height: auto;
+	background: #fcc302;
+	padding: 100px 0;
+}
+
+.product-description p {
+	font-size: 30px;
+	font-weight: 600;
+	color:#fff;
+}
+
+.product-description span {
+	margin-right:30px;
+}
+
+.product-description button{
+	color: #fff;
+	font-weight: 600;
+	border: none;
+    background: #00bec9;
+    padding: 10px 34px;
+    border-radius: 25px;
+}
+
+
+/*Product section css ended */
+
+/*Team section Css started from here*/
+.team{
+	width: 100%;
+	padding: 100px 0;
+}
+
+.team-heading-part{
+	width: 100%
+}
+
+.team-heading-part h1{
+	color: #313243;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.team-heading-part p{
+	color:#313243;
+    font-size: 32px;
+    padding: 0px 125px;
+
+}
+
+.social-icon ul li {
+	display: inline-block;
+	margin-left: 5px;	
+}
+
+.social-icon ul li a{
+	color: #fff;
+	font-size: 25px;
+}
+.social-icon ul li a i{
+	width: 50px;
+    line-height: 50px;
+    height: 50px;
+    background: #fcc302;
+    border-radius: 500%;
+}
+
+/*Team section Css ended*/
+
+/*Our Work section Css started from here*/
+.our-work{
+	width: 100%;
+	background: url(../img/back.png);
+	padding: 180px 0;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.bg-color{
+	position: absolute;
+	background:#f7c200a8;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.our-work .col-md-4 p{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+}
+.our-work .col-md-4 h2{
+	color: #fff;
+	font-weight: 700;
+	font-family: 'Poppins', sans-serif;
+}
+/*Our Work section Css ended*/
+
+/*Recent post section Css started*/
+.recent-post-section{
+	width: 100%;
+}
+.post-heading{
+	padding: 30px 0;
+}
+.post-heading h1{
+	color: #313243;
+	font-size: 75px;
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+}
+.post-heading p{
+	margin-top: 20px;
+	font-size:32px;
+	color: #313243;
+	padding:0 125px;
+	font-family: 'Poppins', sans-serif;
+
+}
+footer{
+	width: 100%;
+	background: #151515;
+	height: auto;
+	padding:100px 0;
+}
+.footer-content h2{
+	color: #fff;
+	font-size: 35px;
+}
+.footer-content li {
+    color: #fff;
+}
+.footer-form{
+	color: #fff;
+	font-size: ;
+}
+.footer-form h1{
+	font-size: 36px;
+	color: #fff;
+}
+.footer-form input{
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Recent post section Css ended*/

@@ -1,0 +1,210 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner-text {
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+   }
+  .banner-text h1 {
+      font-size: 36px;
+   }
+   .banner-text p {
+      font-size: 16px;
+      margin: 15px 0px;
+   }
+   .banner-btn-1 {
+    padding: 10px 16px;
+    font-size: 14px;
+   }
+   .banner-btn-2 {
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+   }
+   .banner-text ul li {
+    margin-right: 15px;
+   }
+   .banner-img {
+    height: auto;
+    display: flex;
+    align-items: center;
+   }
+  .banner-img img {
+    max-width: 100%;
+    height: auto;
+   }
+   .video-text {
+    height: 50vh;
+    display: table-cell;
+    vertical-align: middle;
+   }
+   .video-text h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+   }
+   .video-text p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+   }
+   .video-text button {
+    padding: 8px 14px;
+    border-radius: 2px;
+   }
+   .video-section-video {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+   }
+  .overlay {
+    bottom: 2px;
+    top: 2px;
+    left: 15px;
+    right: 15px;
+   }
+   .Service-section {
+    padding: 40px 0;
+   }
+   .heading-part h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+   }
+ .heading-part p {
+    font-size: 18px;
+    padding:2px 2px;
+  }
+  .video-text-2 {
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .video-text-2 h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .video-text-2 p {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .video-text-2 button {
+    padding: 8px 16px;
+    border-radius: 2px;
+    margin-bottom:10px;
+  }
+  .team {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .team-heading-part h1 {
+    font-size: 41px;
+    margin-bottom: 10px;
+  }
+  .team-heading-part p {
+    font-size: 14px;
+    padding: 2px 2px;
+  }
+  .our-work {
+    padding: 25px 0;
+  }
+  .our-work .col-md-4{
+    margin: 25px 0;
+  }
+  .our-work .col-md-4 p {
+    margin-bottom:0px;
+  }
+  .product-description button {
+    margin-bottom: 15px;
+   }
+  .post-heading h1 {
+    font-size: 36px;
+    font-weight:800;
+  }
+  .post-heading p {
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 2px 2px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
